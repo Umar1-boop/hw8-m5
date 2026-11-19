@@ -1,0 +1,89 @@
+.erf {
+  max-width: 440px;
+  margin: 40px auto;
+  padding: 24px;
+  border: 1px solid #e2e2e2;
+  border-radius: 12px;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+.erf__title {
+  margin: 0 0 20px;
+  font-size: 1.35rem;
+}
+
+.erf__form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.erf__field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.erf__field > label,
+.erf__fieldset legend {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.erf input[type="text"],
+.erf input[type="email"],
+.erf select {
+  padding: 9px 11px;
+  border: 1px solid #c8c8c8;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.erf__fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.erf__radios {
+  display: flex;
+  gap: 16px;
+  margin-top: 6px;
+}
+
+.erf__inline {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.erf__error {
+  margin: 0;
+  color: #d32f2f;
+  font-size: 0.85rem;
+}
+
+.erf__button {
+  padding: 11px;
+  border: none;
+  border-radius: 8px;
+  background: #2f6df6;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.erf__button:hover {
+  background: #1f58d6;
+}
+
+.erf__success {
+  margin-top: 16px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: #e6f4ea;
+  color: #1e6b34;
+  font-weight: 600;
+}
